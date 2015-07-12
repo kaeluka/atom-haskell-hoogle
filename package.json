@@ -1,0 +1,17 @@
+{
+  "name": "haskell-hoogle",
+  "main": "./lib/haskell-hoogle",
+  "version": "0.1.0",
+  "description": "Lookup function documentation on hoogle.",
+  "keywords": ["hoogle", "haskell", "documentation"],
+  "activationCommands": {
+    "atom-workspace": "haskell-hoogle:lookup"
+  },
+  "repository": "https://github.com/atom/haskell-hoogle",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
