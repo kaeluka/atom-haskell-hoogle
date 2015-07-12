@@ -1,7 +1,7 @@
 {
   "name": "haskell-hoogle",
   "main": "./lib/haskell-hoogle",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Lets you look up the marked text on http://www.haskell.org/hoogle via context menu, toolbar item and the exposed command haskell-hoogle:lookup.",
   "keywords": [
     "hoogle",
