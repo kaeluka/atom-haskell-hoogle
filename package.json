@@ -1,9 +1,13 @@
 {
   "name": "haskell-hoogle",
   "main": "./lib/haskell-hoogle",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Lets you look up the marked text on http://www.haskell.org/hoogle via context menu, toolbar item and the exposed command haskell-hoogle:lookup.",
-  "keywords": ["hoogle", "haskell", "documentation"],
+  "keywords": [
+    "hoogle",
+    "haskell",
+    "documentation"
+  ],
   "activationCommands": {
     "atom-workspace": "haskell-hoogle:lookup"
   },
@@ -12,6 +16,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
