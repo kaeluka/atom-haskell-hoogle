@@ -2,7 +2,7 @@
   "name": "haskell-hoogle",
   "main": "./lib/haskell-hoogle",
   "version": "0.0.0",
-  "description": "Lookup function documentation on hoogle.",
+  "description": "Lets you look up the marked text on http://www.haskell.org/hoogle via context menu, toolbar item and the exposed command haskell-hoogle:lookup.",
   "keywords": ["hoogle", "haskell", "documentation"],
   "activationCommands": {
     "atom-workspace": "haskell-hoogle:lookup"
