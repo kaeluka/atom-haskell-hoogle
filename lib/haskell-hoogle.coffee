@@ -17,7 +17,7 @@ module.exports = HaskellHoogle =
     req.send(null)
     reply = JSON.parse(req.responseText)
     if reply.parseError || reply.results.length == 0
-      atom.notifications.addWarning('No documentation for "'+text+'"')
+      atom.notifications.addWarning('No documentation for "'+text+'"', {dismissable: true})
     else
       for res in reply.results
         htmlRes = '<span class="haskell-hoogle-notification-self">'+res.self+'</span>'+
