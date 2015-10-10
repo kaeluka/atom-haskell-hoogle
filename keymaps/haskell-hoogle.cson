@@ -7,6 +7,5 @@
 
 # For more detailed documentation see
 # https://atom.io/docs/latest/behind-atom-keymaps-in-depth
-#'.source.haskell':
-#  'atom-text-editor':
-#  'cmd-ctrl-h': 'haskell-hoogle:lookup'
+'atom-text-editor':
+    'ctrl-shift-h': 'haskell-hoogle:lookup'
